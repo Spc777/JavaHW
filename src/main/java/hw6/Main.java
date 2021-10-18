@@ -4,14 +4,14 @@ public class Main {
     public static void main(String[] args) {
         Animal[] pets = {
                 new Dog("Шарик", "белый", 2),
-                new Cat("Мурзик", "рыжий", 1.5f),
-                new Dog("Тузик", "серый", 1),
-                new Dog("Бобик", "белый", 2.3f),
-                new Dog("Рекс", "коричневый", 2),
+                new Cat("Ричард", "рыжий", 1.5f),
+                new Dog("Рекс", "серый", 1),
+                new Dog("Бим", "белый", 2.3f),
+                new Dog("Джек", "коричневый", 2),
                 new Dog("Мухтар", "белый", 2),
-                new Cat("Том", "рыжий", 1.3f),
-                new Cat("Мурчик", "серый", 1.5f),
-                new Cat("Царапка", "белый", 1.5f),
+                new Cat("Борис", "рыжий", 1.3f),
+                new Cat("Ушан", "серый", 1.5f),
+                new Cat("Космос", "белый", 1.5f),
         };
 
         for (Animal x :
@@ -19,7 +19,7 @@ public class Main {
             System.out.println(x);
         }
 
-        int runDistance = 456;
+        int runDistance = 242;
         int swimDistance = 3;
         for (Animal a :
                 pets) {
