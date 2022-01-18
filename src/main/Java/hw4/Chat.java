@@ -8,7 +8,6 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-
 import static java.awt.event.KeyEvent.VK_ENTER;
 
 public class Chat extends JFrame {
